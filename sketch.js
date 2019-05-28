@@ -17,7 +17,7 @@ var button;
 var t = 0;
 
 function setup() {
-  backgroundimg = loadImage("Images/background.jpg");
+  backgroundimg = loadImage("background.jpg");
   createCanvas(600, 400);
   ship = new Ship();
   for (let j = 0; j < 3; j++) {

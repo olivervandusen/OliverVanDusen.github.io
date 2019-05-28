@@ -4,7 +4,7 @@ function Alien(x, y, speed) {
   this.y = y;
   this.r = 15;
   this.xdir = speed;
-  alienimg = loadImage("Images/alien.png");
+  alienimg = loadImage("alien.png");
   
   this.shiftDown = function() { 
   this.xdir *= -1;

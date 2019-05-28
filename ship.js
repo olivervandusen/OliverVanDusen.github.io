@@ -1,5 +1,5 @@
 function Ship() {
-  shipimg = loadImage("Images/ship.png");
+  shipimg = loadImage("ship.png");
   this.x = width/2;
   this.xdir = 0;
   this.show = function() {
