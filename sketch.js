@@ -11,7 +11,7 @@ var readRows = 0;
 var h = 1;
 var velocity = 1;
 var scoreBoard = 0;
-var factor = 1.5;
+var factor = .5;
 var gameOver = false;
 var button;
 var t = 0;
