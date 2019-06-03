@@ -1,15 +1,22 @@
 var boxes = []
+//let clear = true;
 let i = 0
 
 function setup() {
-  createCanvas(600, 400);
-  
+  createCanvas(600, 400)
+    boxes.splice(0, i)
+    i = 0;
+    clearbutton = createButton("clear");
+    clearbutton.position(290, 390);
+    clearbutton.mousePressed(setup);
+
 }
 
 function mouseDragged() {
   let h = random(10, 50);
   let w = random(10, 50);
   boxes [i] = new Box(mouseX, mouseY, h, w);
+  console.log("hi")
   i++
 }
   
@@ -19,6 +26,11 @@ function draw() {
     boxes[i].move();
     boxes[i].show();
   }
+
+
+  //function clear() {
+    //  boxes.splice(0, i)
+  //}
 }
 
 class Box {
