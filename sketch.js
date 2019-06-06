@@ -123,7 +123,7 @@ function draw() {
         text( 'Score ' + score, 150, 300);
         textSize(10);
         button = createButton("play again")
-        button.position(10,10);
+        button.position(10,40);
         button.mousePressed(restart);
     } else {
     }
