@@ -8,11 +8,11 @@ function setup() {
 
 function draw() { 
 	button = createButton('Smaller');
-	button.position(random(60, 62), random(380, 382));
+	button.position(random(60, 62), random(570, 572));
 	button.mousePressed(sizeless);
   
   button = createButton('Bigger');
-	button.position(random(120, 122), random(380, 382));
+	button.position(random(120, 122), random(570, 572));
 	button.mousePressed(sizeplus);
 	
   circle(M, 200, s);
